@@ -29,7 +29,7 @@ export function SkillsSection() {
     {
       title: "フロントエンドフレームワーク",
       icon: <Layout className="h-5 w-5 mr-2" />,
-      skills: ["Vue.js", "Nuxt.js", "Svelete"],
+      skills: ["Vue.js", "Nuxt.js", "Svelte"],
     },
     {
       title: "サーバーサイド",
@@ -42,9 +42,9 @@ export function SkillsSection() {
       skills: ["RSpec", "minitest"],
     },
     {
-      title: "AED",
+      title: "AWS",
       icon: <Cloud className="h-5 w-5 mr-2" />,
-      skills: ["EC2", "VPC", "Route53", "RDS", "AppRunner", "Lamda", "APIGateway", "CloudFront", "Heroku"],
+      skills: ["EC2", "VPC", "Route53", "RDS", "AppRunner", "Lambda", "APIGateway", "CloudFront", "Heroku"],
     },
     {
       title: "CI/CD",
@@ -69,7 +69,7 @@ export function SkillsSection() {
     {
       title: "タスク管理",
       icon: <ListTodo className="h-5 w-5 mr-2" />,
-      skills: ["ZebHub", "Jira", "Wrike", "Trello"],
+      skills: ["ZenHub", "Jira", "Wrike", "Trello"],
     },
     {
       title: "UI/UX",

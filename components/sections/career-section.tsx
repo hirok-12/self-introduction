@@ -6,14 +6,9 @@ import { CalendarIcon, GraduationCapIcon, BriefcaseIcon } from "lucide-react";
 export function CareerSection() {
   const education = [
     {
-      school: "サンタロサジュニアカレッジ（米国）",
-      degree: "行動環境学科",
-      period: "2012 - 2014",
-    },
-    {
       school: "カルフォルニア州立大学サンノゼ校（米国）",
-      degree: "国際ビジネス学部",
-      period: "2014 - 2016",
+      degree: "International Business(国際ビジネス学部)",
+      period: "2014 - 2015",
     }
   ];
 
@@ -27,14 +22,14 @@ export function CareerSection() {
     },
     {
       company: "株式会社BuySellTechnologies",
-      position: "エンジニア",
+      position: "WEBエンジニア",
       period: "2019",
       description: "ECサイトの開発・保守",
       skills: ["Rails", "Vue.js", "API開発"]
     },
     {
       company: "UUUM株式会社",
-      position: "シニアエンジニア",
+      position: "WEBエンジニア",
       period: "2019 - 2020",
       description: "社内システムの開発・保守、新規サービス開発",
       skills: ["Ruby on Rails", "Vue.js", "AWS"]
@@ -42,14 +37,14 @@ export function CareerSection() {
     {
       company: "個人事業主",
       position: "フリーランスエンジニア",
-      period: "2020 - 2023",
+      period: "2020 - 2024",
       description: "Web開発、モバイルアプリ開発、技術コンサルティング",
       skills: ["Vue.js", "React", "Ruby on Rails", "AWS"]
     },
     {
       company: "株式会社JAPANWAVE",
       position: "代表取締役",
-      period: "2023 - 現在",
+      period: "2024 - 現在",
       description: "自社サービスの開発・運営、クライアントワーク",
       skills: ["Next.js", "Ruby on Rails", "AWS", "AI開発"]
     }
@@ -81,7 +76,7 @@ export function CareerSection() {
         >
           <h3 className="text-xl font-medium mb-6 flex items-center">
             <GraduationCapIcon className="h-5 w-5 mr-2 text-primary" />
-            学歴
+            最終学歴
           </h3>
           
           <div className="space-y-8">
@@ -91,10 +86,6 @@ export function CareerSection() {
                 <div className="flex flex-col">
                   <h4 className="text-lg font-medium">{edu.school}</h4>
                   <p className="text-muted-foreground mb-1">{edu.degree}</p>
-                  <div className="flex items-center text-sm text-muted-foreground">
-                    <CalendarIcon className="h-4 w-4 mr-1" />
-                    {edu.period}
-                  </div>
                 </div>
               </div>
             ))}
